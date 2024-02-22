@@ -1,0 +1,166 @@
+body {
+    font-family: "Antic Didone", serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-image: url("/Docs/Photos/psy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: #73C2BE;
+    padding: 10px;
+    text-align: center;
+    border-bottom: solid #5f1a37f1;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    color: #5f1a37f1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #5f1a37;
+    font-weight: bold;
+    font-size: 1.5rem
+}
+
+#cont{
+    display: grid;
+    place-items: center;
+}
+
+header{
+    background-color: #5f1a37f1;
+    margin: 10rem;
+    padding: 6rem;
+    width: 70rem;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 100px;
+}
+
+header h1{
+    font-size: 5rem;
+}
+
+header h2{
+    font-size: 2rem;
+}
+
+header p{
+    font-size: 1.3rem;
+    margin-bottom: 7rem;
+}
+
+header img{
+    height: 6rem; 
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #776885f1; /* Light Pink */
+    border-radius: 10px;
+    color: #fcccb0;
+}
+
+#sobre{
+    margin: 2rem 25rem;
+    padding: 5rem auto;
+}
+
+section h2{
+    color: #fcccb0;
+}
+
+#sobre h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#sobre p{
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1rem 2rem 1rem 2rem;
+    color: white;
+}
+
+#educação{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 0 1fr;
+    grid-template-rows: 0.5fr auto auto;
+    text-align: center;
+    padding: 0 0 10rem 0;
+}
+
+#educação h2{
+    font-size: 2.5rem;
+    grid-area: 1 / 2 / 1 / 2;
+}
+
+#principal{
+    grid-area: 2 / 1 / 2 / 1;
+    width: 50rem;
+    height: 55rem;
+    display: grid;
+}
+
+#secundaria{
+    grid-area: 2 / 3 / 2 / 3;
+    width: 50rem;
+    height: 55rem;
+    display: grid;
+}
+
+
+#secundaria h3, #principal h3{
+    font-size: 2.5rem;
+    color: #5f1a37;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+#secundaria h4, #principal h4{
+    font-size: 1.7rem;
+    color: white;
+}
+
+.colista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lista{
+    background-color: #73C2BE;
+    margin: 1rem auto;
+    height: 9rem;
+    width: 50rem;
+    border: solid #5f1a37;
+}
+
+.lista p{
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #fcccb0; /* Light Grayish Blue */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
