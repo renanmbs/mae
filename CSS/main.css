@@ -1,3 +1,11 @@
+/*Color Pallete:
+#fcccb0 -> light coral
+#73c2be -> tiffany blue
+776885 -> Violet
+5f1a37 -> Wine
+04030F -> Black
+*/
+
 body {
     font-family: "Antic Didone", serif;
     font-style: normal;
@@ -164,3 +172,43 @@ footer {
     text-align: center;
     color: white;
 }
+
+#serviços h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#serviços h3{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 3.4rem auto;
+}
+
+#serviços p, #serviços li{
+    font-size: 1.2rem;
+}
+
+footer h2{
+    font-size: 2.5rem;
+}
+
+footer p{
+    font-size: 1.3rem;
+}
+
+#icons img{
+    margin: 0 1rem;
+    border: solid #5f1a37;
+    padding: 0.5rem;
+    border-radius: 10px;
+    height: 3rem;
+    width: 3rem;
+    background-color: #73C2BE;
+
+}
+
+#icons img:hover {
+    filter: invert(100%); /* Invert the colors on hover */
+}
+
