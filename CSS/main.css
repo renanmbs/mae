@@ -271,15 +271,13 @@ footer p{
     header h1{
         font-size: 2.5rem;
         border: solid red;
-        width: fit-content;
-        max-width: 100%;
+        width: 5rem;
     }
     
     header h2{
         font-size: 1.5rem;
         border: solid red;
-        width: fit-content;
-        max-width: 100%;
+        width: 5rem;
     }
     
     header p{
@@ -309,8 +307,8 @@ footer p{
     }
     
     .lista{
-        margin: 1rem auto;
-        height: 15rem;
+        margin: 1rem 0;
+        height: 10rem;
         width: 9rem;
     }
 
@@ -319,7 +317,7 @@ footer p{
     }
 
     #secundaria h3, #principal h3{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         letter-spacing: 1px;
     }
     
@@ -328,13 +326,13 @@ footer p{
     }
 
     #principal{
-        width: 10rem;
+        width: 11rem;
         height: 65rem;
         border: solid red;
     }
     
     #secundaria{
-        width: 10rem;
+        width: 11rem;
         height: 65rem;
         border: solid red;
     }
@@ -353,7 +351,7 @@ footer p{
     }
 
     section {
-        margin: 0.5rem;
+        margin: 0.3rem;
     }
 
     footer h2{
