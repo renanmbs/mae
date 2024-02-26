@@ -262,27 +262,27 @@ footer p{
     header{
         margin: 1rem;
         padding: 6rem;
-        width: 30rem;
+        width: 10rem;
     }
 
     #sobre{
-        margin: 2rem 6rem;
+        margin: 2rem 1rem;
         padding: 5rem auto;
     }
     
     .lista{
         margin: 1rem auto;
         height: 9rem;
-        width: 20rem;
+        width: 10rem;
     }
 
     #principal{
-        width: 25rem;
+        width: 15rem;
         height: 65rem;
     }
     
     #secundaria{
-        width: 25rem;
+        width: 15rem;
         height: 65rem;
     }
 }
