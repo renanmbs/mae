@@ -203,7 +203,7 @@ footer {
 }
 
 #serviços li{
-    margin: 0.5rem;   
+    margin: 1rem;   
 }
 
 
@@ -268,11 +268,16 @@ footer p{
 
     nav ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
+    }
+
+    nav li{
+        border: solid blue;
     }
 
     nav a{
         font-size: 1.2rem;
+        border: solid red;
     }
     
     header{
@@ -282,6 +287,7 @@ footer p{
     }
 
     header h1{
+        margin-top: 1.5rem;
         font-size: 2.5rem;
     }
     
@@ -318,7 +324,7 @@ footer p{
     .lista{
         margin: 1rem 0;
         height: 10.5rem;
-        width: 10rem;
+        width: 10.3rem;
     }
 
     .lista p{
@@ -337,13 +343,11 @@ footer p{
     #principal{
         width: 11rem;
         height: 65rem;
-        border: solid red;
     }
     
     #secundaria{
         width: 11rem;
         height: 65rem;
-        border: solid red;
     }
 
     #serviços h2{
