@@ -228,13 +228,10 @@ footer p{
     filter: invert(100%); /* Invert the colors on hover */
 }
 
-/* Media Query for 13-inch MacBook */
 @media only screen and (min-width: 1440px) and (max-width: 1920px) {
 
     header{
-        background-color: #5f1a37f1;
         margin: 1rem;
-        padding: 6rem;
         width: 55rem;
     }
 
@@ -256,6 +253,36 @@ footer p{
     
     #secundaria{
         width: 41rem;
+        height: 65rem;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    
+    header{
+        margin: 1rem;
+        padding: 6rem;
+        width: 30rem;
+    }
+
+    #sobre{
+        margin: 2rem 6rem;
+        padding: 5rem auto;
+    }
+    
+    .lista{
+        margin: 1rem auto;
+        height: 9rem;
+        width: 20rem;
+    }
+
+    #principal{
+        width: 25rem;
+        height: 65rem;
+    }
+    
+    #secundaria{
+        width: 25rem;
         height: 65rem;
     }
 }
