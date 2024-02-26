@@ -265,7 +265,6 @@ footer p{
         display: flex;
         justify-content: space-evenly;
     }
-    
 
     nav a{
         font-size: 1.3rem;
@@ -276,6 +275,7 @@ footer p{
         width: 10rem;
         display: grid;
         place-items: center;
+        padding: 0rem;
     }
 
     header h1{
@@ -316,8 +316,8 @@ footer p{
     
     .lista{
         margin: 1rem 0;
-        height: 10rem;
-        width: 9rem;
+        height: 11rem;
+        width: 11rem;
     }
 
     .lista p{
@@ -359,7 +359,7 @@ footer p{
     }
 
     section {
-        margin: 0.3rem;
+        margin: 0.5rem;
     }
 
     footer h2{
