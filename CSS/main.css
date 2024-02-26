@@ -35,10 +35,18 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: space-around;
     list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
     padding: 0;
     margin: 0;
+}
+
+nav ul img{
+    height: 3rem; 
+    width: 3rem;
+    position: absolute;
+    left: 0;
 }
 
 nav a{
@@ -47,6 +55,7 @@ nav a{
     font-weight: bold;
     font-size: 1.5rem;
     transition: all 150ms ease-in;
+    margin-left: auto;
 }
 
 nav a:hover{
@@ -81,11 +90,11 @@ header h2{
 
 header p{
     font-size: 1.3rem;
-    margin-bottom: 7rem;
+    margin-bottom: 2rem;
 }
 
 header img{
-    height: 6rem; 
+    height: 15rem; 
 }
 
 section {
