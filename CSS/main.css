@@ -159,6 +159,8 @@ section h2{
 
 .colista{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -259,6 +261,12 @@ footer p{
 
 @media only screen and (max-width: 812px) {
 
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+
     nav a{
         font-size: 1.3rem;
     }
@@ -266,18 +274,18 @@ footer p{
     header{
         margin: 1rem auto;
         width: 10rem;
+        display: grid;
+        place-items: center;
     }
 
     header h1{
         font-size: 2.5rem;
         border: solid red;
-        width: 5rem;
     }
     
     header h2{
         font-size: 1.5rem;
         border: solid red;
-        width: 5rem;
     }
     
     header p{
