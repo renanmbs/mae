@@ -275,6 +275,7 @@ footer p{
     
     header h2{
         font-size: 1.5rem;
+        border: solid red;
     }
     
     header p{
