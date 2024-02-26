@@ -267,14 +267,12 @@ footer p{
     }
 
     nav a{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     
     header{
         margin: 1rem auto;
-        width: 10rem;
-        display: grid;
-        place-items: center;
+        width: 20rem;
         padding: 0rem;
     }
 
@@ -315,9 +313,9 @@ footer p{
     }
     
     .lista{
-        margin: 1rem 0;
-        height: 11rem;
-        width: 11rem;
+        margin: 5rem 0;
+        height: 10.5rem;
+        width: 10rem;
     }
 
     .lista p{
