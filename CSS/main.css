@@ -299,13 +299,13 @@ footer p{
     }
 
     #principal{
-        width: 20rem;
+        width: 10rem;
         height: 65rem;
         border: solid red;
     }
     
     #secundaria{
-        width: 20rem;
+        width: 10rem;
         height: 65rem;
         border: solid red;
     }
@@ -316,5 +316,14 @@ footer p{
         font-weight: bold;
         margin: 2rem auto;
     }
+
+    .lista p{
+        font-size: 0.8rem;
+    }
+
+    section {
+        margin: 0.5rem;
+    }
+    
 }
 
