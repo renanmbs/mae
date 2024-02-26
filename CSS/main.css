@@ -324,6 +324,7 @@ footer p{
 
     .lista p{
         font-size: 1rem;
+        font-weight: bold;
     }
 
     #secundaria h3, #principal h3{
